@@ -1,0 +1,42 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 150px;
+}
+
+#searchInput {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.block-h1{
+    font-size: 20px;
+    padding: 10px;
+    border: dashed;
+}
+
+.block-img{
+    border-radius: 30px;
+    width: 200px;
+}
